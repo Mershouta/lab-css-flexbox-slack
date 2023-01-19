@@ -53,6 +53,10 @@ a.navB {
     color: white;
 }
 
+#header p {
+    color
+}
+
 ul {
     display: none;
 }
@@ -61,11 +65,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
+}
+
+#header p {
+    font-size: 1.5rem;
 }
 header h1, p {
     text-align: center;
@@ -164,7 +172,7 @@ picture {
     padding: 2rem;
 }
 
-.bringTeam h2 {
+h2 {
     padding: 1rem;
 }
 .bringTeam a {
@@ -174,6 +182,26 @@ picture {
     left: 0%;
     padding: 1rem;
 }
+
+.flexibility {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.flexibility a {
+    text-decoration: none;
+    color: #4285F4;
+
+}
+.flexibility img {
+    width: 100%;
+}
+
+
 /*background ivory: #F3EAE2
 
 titles black: #191817
