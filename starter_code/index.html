@@ -13,37 +13,41 @@
   <link rel="stylesheet" href="./stylesheets/style.css" />
 
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
+
+  <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+  
   <title>Slack is your digital HQ | Slack</title>
 </head>
 
 <body>
+  <section id="first">
   <nav>
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img class="slackLogo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul id="nav">
         <li>
-          <a href="#">Product</a>
+          <a class="navB" href="#">Product</a>
         </li>
         <li>
-          <a href="#">Solutions</a>
+          <a class="navB" href="#">Solutions</a>
         </li>
         <li>
-          <a href="#">Resources</a>
+          <a class="navB" href="#">Resources</a>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <a class="navB" href="#">Pricing</a>
         </li>
       </ul>
     </div>
 
-    <div>
-      <button>
-        <img src="./images/icon-search.png" alt="Search icon">
+    <div id="flexD">
+      <button class="bNav">
+        <img class="searchB" src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
+      <button class="bNav">
+        <img class="menuI" src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
       <ul hidden>
@@ -57,16 +61,16 @@
     </div>
   </nav>
 
-  <header>
+  <header id="header">
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
       <p>Slack is free to try for as long as you'd like.</p>
 
-      <div>
+      <div id="signupButtons">
         <button>Sign up with email</button>
 
-        <button>
+        <button id="googleCo">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -74,32 +78,33 @@
 
     </div>
 
-    <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+    <div class="iphone">
+      <img  src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
-
-  <main>
-    <section>
+  </section>
+  <main id="second">
+    <section id="companies">
       <p>Trusted by companies all over the world</p>
 
-      <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+      <div id="companieLogos">
+        
+        <picture><img src="./images/logo-airbnb.png" alt="Airbnb logo" /></picture>
+        <picture><img src="./images/logo-nasa.png" alt="NASA logo" /></picture>
+        <picture><img src="./images/logo-uber.png" alt="Uber logo" /></picture>
+        <picture><img src="./images/logo-target.png" alt="Target logo" /></picture>
+        <picture><img src="./images/logo-nyt.png" alt="New York Times logo" /></picture>
+        <picture><img src="./images/logo-spotify.png" alt="Spotify logo" /></picture>
       </div>
 
     </section>
 
-    <section>
+    <section id="connectedness">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
-      <div>
+      <div class="bringTeam">
         <h2>Bring your team together</h2>
 
         <p>

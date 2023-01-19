@@ -1,7 +1,181 @@
-/*
-background purple: #540B51
-background ivory: #F3EAE2
-button blue: #4285F4
+body {
+    font-family: 'Noto sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#first {
+    background-color: #540B51;
+}
+
+.slackLogo {
+    height: 40px;
+}
+
+a.navB {
+    color: blue;
+    text-decoration: none;
+}
+
+#nav li {
+    display: inline;
+    font-size: 2rem;
+    /* position: relative;
+    top: 50px;
+    right: 30px; */
+}
+
+#flexD {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* position: absolute;
+    top: 50px;
+    right: 30px; */
+    /* justify-content: right; */
+    /* align-items: top; */
+}
+
+.searchB, .menuI, .bNav{
+    background: #540B51;
+    border: none;
+    /* height: 3rem;
+    padding: 1rem; */
+}
+
+#header h1 {
+    color: white;
+}
+#header p {
+    color: white;
+}
+
+ul {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+header h1, p {
+    text-align: center;
+}
+
+#signupButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#signupButtons button {
+    height: 3rem;
+    width: 90%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#signupButtons :first-child {
+    color: #540B51;
+}
+ #googleCo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285F4;
+    border: none;   
+    position: relative;
+ }
+
+ #googleCo > img {
+    width: 2rem;
+    background-color: white;
+    border-radius: 2px;
+    position: absolute;
+    left: .25rem;
+    
+ }
+
+ .iphone {
+    height: 300px;
+    overflow: hidden;
+    margin-top: 2rem;
+ }
+ .iphone img {
+    width: 120%;
+ }
+
+ #companies p {
+    color: black;
+
+ }
+
+#companieLogos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+picture {
+    display: block;
+    width: 100px;
+}
+
+#companieLogos img{
+    width: 100%;
+}
+
+#second {
+    background-color:#F3EAE2;
+}
+
+#connectedness {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem   ;
+}
+
+#connectedness img {
+    width: 95%;
+}
+
+.bringTeam {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 95%;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.bringTeam h2 {
+    padding: 1rem;
+}
+.bringTeam a {
+    color: #4285F4;
+    text-decoration: none;
+    
+    left: 0%;
+    padding: 1rem;
+}
+/*background ivory: #F3EAE2
+
 titles black: #191817
 paragraph black: #000000
 paragraph yellow: #ECB12F
