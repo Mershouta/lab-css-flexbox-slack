@@ -173,7 +173,8 @@ picture {
 }
 
 h2 {
-    padding: 1rem;
+    padding: 2rem;
+    font-weight: bold;
 }
 .bringTeam a {
     color: #4285F4;
@@ -189,7 +190,6 @@ h2 {
     justify-content: center;
     flex-direction: column-reverse;
     font-size: 2rem;
-    font-weight: bold;
 }
 
 .flexibility a {
@@ -200,6 +200,15 @@ h2 {
 .flexibility img {
     width: 100%;
 }
+
+.move {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
 
 
 /*background ivory: #F3EAE2
